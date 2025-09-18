@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dictionnaire Wiktionnaire (FR)</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Dictionnaire Wiktionnaire (FR)</h1>
+  </header>
+
+  <main class="main">
+    <form id="searchForm">
+      <input type="text" id="wordInput" placeholder="Tapez un mot en français..." required>
+      <button type="submit">Rechercher</button>
+    </form>
+    <section id="result"></section>
+  </main>
+
+  <footer class="footer">
+    <p>Démo éducative — définitions fournies par <a href="https://fr.wiktionary.org" target="_blank">Wiktionnaire</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
